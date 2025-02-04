@@ -1,8 +1,8 @@
 # PL2025-A104088
 
 ## Identificação
-**Nome:** [André Sousa Miranda]  
-**Número:** [a104088]  
+**Nome:** André Sousa Miranda  
+**Número:** a104088  
 
 ![Foto do Aluno](image/AndreMiranda.png)
 
