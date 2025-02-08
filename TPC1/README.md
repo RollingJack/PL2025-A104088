@@ -2,9 +2,9 @@
 
 **Data:** 8 de Fevereiro de 2025
 
-**Autor:**  
-Nome: André Sousa Miranda  
-Número: a104088  
+# Autor
+**Nome:** André Sousa Miranda  
+**Número:** a104088  
 ![Foto](image/AndreMiranda.png)
 
 ## Resumo
@@ -21,7 +21,6 @@ O programa foi testado com diversas entradas para verificar sua precisão e ader
 ## Lista de Resultados
 - [Código Python](somador_on_off.py)
 - [Código para executar exemplos de uso](testes.py)
-- [Este manifesto (README.md)](README.md)
 
 ## Exemplo de Uso 1
 ### Entrada:
