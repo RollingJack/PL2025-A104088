@@ -36,24 +36,3 @@ def somador_on_off(texto):
 if __name__ == "__main__":
     from testes import rodar_testes
     rodar_testes()
-
-#
-# Exemplos de uso de resultados:
-#entrada = "12abc34On56OfF78On90="
-#somador_on_off(entrada)  # Deve imprimir 192 
-
-#entrada = "10On20Off30On40="
-#somador_on_off(entrada)  # Deve imprimir 70
-
-#entrada = "5On10OffOff20On30Off40On50="
-#somador_on_off(entrada)  # Deve imprimir 95
-
-#entrada = "Off10On20Off30On40="
-#somador_on_off(entrada)  # Deve imprimir 60
-
-#entrada = "On123abc456OFf789On100="
-#somador_on_off(entrada)  # Deve imprimir 679
-
-#entrada = "ON50oN60Off70="
-#somador_on_off(entrada)  # Deve imprimir 110
-#
