@@ -11,7 +11,7 @@ def rodar_testes():
     ]
 
     print("Escolha uma opção:")
-    print("1 - Rodar exemplos predefinidos")
+    print("1 - Usar exemplos predefinidos")
     print("2 - Inserir entrada personalizada")
     escolha = input("Opção: ")
 
@@ -20,7 +20,7 @@ def rodar_testes():
             print(f"Entrada: {entrada}")
             somador_on_off(entrada)
     elif escolha == "2":
-        entrada = input("Digite sua entrada: ")
+        entrada = input("Digite a entrada: ")
         somador_on_off(entrada)
     else:
         print("Opção inválida.")
