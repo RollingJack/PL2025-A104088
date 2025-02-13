@@ -14,7 +14,7 @@ A lógica foi implementada sem o uso de expressões regulares, o que garante que
 
 O projeto foi estruturado em dois arquivos principais:
 - **`somador_on_off.py`**: Contém a implementação da função principal e a execução via `main`.
-- **`testes.py`**: Permite ao usuário rodar testes predefinidos ou inserir entradas personalizadas.
+- **`testes.py`**: Permite ao utilizador usar testes predefinidos ou inserir entradas personalizadas.
 
 O programa foi testado com diversas entradas para verificar sua precisão e aderência às regras estabelecidas. Os resultados obtidos confirmam que a implementação atende aos requisitos especificados, garantindo o correto funcionamento das operações de soma e controle de estado.
 
