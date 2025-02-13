@@ -14,13 +14,13 @@ A lógica foi implementada sem o uso de expressões regulares, o que garante que
 
 O projeto foi estruturado em dois arquivos principais:
 - **`somador_on_off.py`**: Contém a implementação da função principal e a execução via `main`.
-- **`testes.py`**: Permite ao utilizador usar testes predefinidos ou inserir entradas personalizadas.
+- **`testes.txt`**: Contém testes predefinidos para o utilizador usar em vez de inserir entradas personalizadas.
 
 O programa foi testado com diversas entradas para verificar a sua precisão e aderência às regras estabelecidas. Os resultados obtidos confirmam que a implementação atende aos requisitos especificados, garantindo o correto funcionamento das operações de soma e controle de estado.
 
 ## Lista de Resultados
 - [Código Python](somador_on_off.py)
-- [Código para executar exemplos de uso](testes.py)
+- [Exemplos de uso](testes.txt)
 
 ## Exemplo de Uso 1
 ### Entrada:
@@ -29,7 +29,7 @@ O programa foi testado com diversas entradas para verificar a sua precisão e ad
 ```
 ### Saída esperada:
 ```
-192
+A Soma atual é : 192
 ```
 
 ## Exemplo de Uso 2
@@ -39,7 +39,7 @@ O programa foi testado com diversas entradas para verificar a sua precisão e ad
 ```
 ### Saída esperada:
 ```
-70
+A Soma atual é : 70
 ```
 
 ## Exemplo de Uso 3
@@ -49,7 +49,7 @@ O programa foi testado com diversas entradas para verificar a sua precisão e ad
 ```
 ### Saída esperada:
 ```
-95
+A Soma atual é : 95
 ```
 
 ## Exemplo de Uso 4
@@ -59,7 +59,7 @@ Off10On20Off30On40=
 ```
 ### Saída esperada:
 ```
-60
+A Soma atual é : 60
 ```
 
 ## Exemplo de Uso 5
@@ -69,7 +69,7 @@ On123abc456OFf789On100=
 ```
 ### Saída esperada:
 ```
-679
+A Soma atual é : 679
 ```
 
 ## Exemplo de Uso 6
@@ -79,9 +79,28 @@ ON50oN60Off70=
 ```
 ### Saída esperada:
 ```
-110
+A Soma atual é : 110
 ```
 
+## Exemplo de Uso 7
+### Entrada:
+```
+12abc34On56OfF78On90=
+10On20Off30On40=
+5On10OffOff20On30Off40On50=
+Off10On20Off30On40=
+On123abc456OFf789On100=
+ON50oN60Off70=
+```
+### Saída esperada:
+```
+A Soma atual é : 192
+A Soma atual é : 262
+A Soma atual é : 357
+A Soma atual é : 417
+A Soma atual é : 1096
+A Soma atual é : 1206
+```
 ---
 
 
