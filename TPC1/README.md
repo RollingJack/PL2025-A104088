@@ -16,6 +16,11 @@ O projeto foi estruturado em dois arquivos principais:
 - **`somador_on_off.py`**: Contém a implementação da função principal e a execução via `main`.
 - **`testes.txt`**: Contém testes predefinidos para o utilizador usar em vez de inserir entradas personalizadas.
 
+O código lê sequencialmente caracteres de um texto fornecido pela entrada padrão (`sys.stdin`) para somar sequências de dígitos encontradas. A variável `ligado` determina se a soma está ativa, alternando entre `True` e `False` conforme são detectadas as palavras-chave "On" e "Off". 
+
+Cada número é construído carácter a carácter e, quando um elemento não numérico é encontrado, verifica-se se ele deve ser somado ao total. A soma só é acumulada se o estado estiver "ligado". Quando o carácter `=` é encontrado, o programa imprime a soma atual. Esse processo se repete para todas as linhas inseridas até que a entrada seja encerrada.
+
+
 O programa foi testado com diversas entradas para verificar a sua precisão e aderência às regras estabelecidas. Os resultados obtidos confirmam que a implementação atende aos requisitos especificados, garantindo o correto funcionamento das operações de soma e controle de estado.
 
 ## Lista de Resultados
