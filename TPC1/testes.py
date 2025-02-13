@@ -1,6 +1,6 @@
 from somador_on_off import somador_on_off
 
-def rodar_testes():
+def executar_testes():
     exemplos = [
         "12abc34On56OfF78On90=",  # Deve imprimir 192
         "10On20Off30On40=",  # Deve imprimir 70
@@ -26,4 +26,4 @@ def rodar_testes():
         print("Opção inválida.")
 
 if __name__ == "__main__":
-    rodar_testes()
+    executar_testes()

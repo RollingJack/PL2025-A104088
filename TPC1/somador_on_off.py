@@ -34,5 +34,5 @@ def somador_on_off(texto):
         soma += int(numero_atual)
 
 if __name__ == "__main__":
-    from testes import rodar_testes
-    rodar_testes()
+    from testes import executar_testes
+    executar_testes()
