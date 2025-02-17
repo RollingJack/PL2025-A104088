@@ -2,8 +2,6 @@
 
 **Data:** 16 de Fevereiro de 2025
 
-## Autor
-
 # Autor
 **Nome:** André Sousa Miranda  
 **Número:** a104088  
@@ -34,9 +32,9 @@ O código principal está contido no [Código em Python](obras_musicais.py), que
 
 ## Resultados ou links em falta
 
-[obras.csv](obras.csv) - Este ficheiro csv foi fornecido pelo professor para nós utilizarmos para a resolução deste TPC;
+[obras.csv](obras.csv) - Este ficheiro CSV foi fornecido pelo professor para nós utilizarmos para a resolução deste TPC;
 
-[obras_organizadas.csv](obras_organizadas.csv) - Este ficheiro csv resulta do código `obras_musicais.py`, de forma a que organiza o ficheiro `obras.csv` para que se torne mais acessível e eficiente para o resto do funcionamento do código;
+[obras_organizadas.csv](obras_organizadas.csv) - Este ficheiro CSV resulta do código `obras_musicais.py`, de forma a que organiza o ficheiro `obras.csv` para que se torne mais acessível e eficiente para o resto do funcionamento do código;
 
 [resultado.txt](resultado.txt) - Este ficheiro possui o resultado obtido do código `obras_musicais.py` a partir do ficheiro `obras_organizadas.csv` para obter o resultado dos três exercícios pedidos;
 
