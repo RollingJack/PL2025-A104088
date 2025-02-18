@@ -35,6 +35,11 @@ for obra in ler.split("\n"):
 
     if limitado:
         compositor = limitado.group(1).strip()
+
+        if "," in compositor:
+            partes = compositor.split(",", 1)
+            compositor = f"{partes[1].strip()} {partes[0].strip()}"
+
         if compositor not in compositores:
             compositores.add(compositor)
 

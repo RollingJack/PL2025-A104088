@@ -17,7 +17,7 @@ A implementação foi feita em Python sem utilizar o módulo `csv`, garantindo q
 
 1. O programa lê o arquivo CSV, ignorando a primeira linha (cabeçalho).
 2. As linhas subsequentes são processadas, removendo quebras de linha indevidas.
-3. Os nomes dos compositores são extraídos e armazenados em um conjunto para evitar repetições.
+3. Os nomes dos compositores são extraídos e armazenados em um conjunto para evitar repetições, caso encontre uma situação em que primeiro mostra o último nome e a seguir o primeiro nome separado pelo carácter `,`, ele organiza direito o nome do compositor antes de armazenar no conjunto.
 4. A contagem das obras por período é realizada utilizando um dicionário, onde a chave representa o período e o valor indica a quantidade de obras associadas.
 5. Os títulos das obras são organizados por período e armazenados em um dicionário.
 6. As listas de compositores e títulos são ordenadas alfabeticamente.
