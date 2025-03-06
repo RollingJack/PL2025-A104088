@@ -39,7 +39,7 @@ Tokens reconhecidos:
 - **FECHA_CH**: Fecha chavetas `}`.
 - **COMMENT**: Comentários iniciados por `#`.
 - **SKIP**: Espaços em branco e tabulações (ignorados).
-- **ERRO**: Qualquer caractere não reconhecido.
+- **ERRO**: Qualquer carácter não reconhecido.
 
 ## Estrutura do Código
 
@@ -52,7 +52,7 @@ A principal lógica do programa está na função `lexer`, que realiza a leitura
 
 ### Tratamento de Erros
 
-Se o analisador encontrar um caractere ou padrão que não se enquadre em nenhuma categoria, ele será classificado como `ERRO`. Por exemplo:
+Se o analisador encontrar um carácter ou padrão que não se enquadre em nenhuma categoria, ele será classificado como `ERRO`. Por exemplo:
 
 ```
 Erro léxico: 'X' não reconhecido.
