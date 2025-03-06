@@ -33,7 +33,7 @@ Tokens reconhecidos:
 - **VAR**: Variáveis SPARQL (ex.: `?nome`, `?desc`).
 - **IDENTIFIER**: Identificadores (ex.: `dbo:MusicalArtist`).
 - **STRING**: Cadeias de texto entre aspas (ex.: `"Chuck Berry"`).
-- **LANGTAG**: Identificadores de língua (ex.: ``@en`)
+- **LANGTAG**: Identificadores de língua (ex.: ``@en``)
 - **OP**: Operadores (ex.: `=`, `:`,`+`,`/`).
 - **ABRE_CH**: Abre chavetas `{`.
 - **FECHA_CH**: Fecha chavetas `}`.
