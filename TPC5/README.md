@@ -9,7 +9,7 @@
 
 ## Resumo
 
-Este projeto consiste no desenvolvimento de uma máquina de vendas automatizada utilizando Python. A máquina permite que os utilizadores possam ver os produtos em `stock`, insirir moedas, verificar o saldo, fazer compras dos produtos disponíveis em `stock` e retirar o troco. O sistema também permite a administração de produtos através de comandos como "ADICIONAR", "SELECIONAR", "LISTAR", "MOEDA", "SALDO" e "SAIR". O `stock` de produtos é carregado e atualizado a partir de um arquivo JSON.
+Este projeto consiste no desenvolvimento de uma máquina de vendas automatizada utilizando Python. A máquina permite que os utilizadores possam ver os produtos em `stock`, inserir moedas, verificar o saldo, fazer compras dos produtos disponíveis em `stock` e retirar o troco. O sistema também permite a administração de produtos através de comandos como "ADICIONAR", "SELECIONAR", "LISTAR", "MOEDA", "SALDO" e "SAIR". O `stock` de produtos é carregado e atualizado a partir de um arquivo JSON.
 
 ## Funcionamento do Programa
 
