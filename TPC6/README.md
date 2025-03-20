@@ -9,7 +9,7 @@
 
 ## Resumo
 
-O objetivo é implementar uma Gramática Independente de Contexto (LL1) para avaliar expressões matemáticas, seguindo as diversas regras gramaticais, para possibilitar a implementação de um parser recursivo descendente e garantir a correta precedência de operadores.
+O objetivo é implementar uma Gramática Independente de Contexto para avaliar expressões matemáticas, seguindo as diversas regras gramaticais, para possibilitar a implementação de um parser recursivo descendente e garantir a correta precedência de operadores.
 
 ### Exemplos de expressões suportadas:
 
