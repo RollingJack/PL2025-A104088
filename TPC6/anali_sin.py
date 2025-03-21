@@ -1,4 +1,4 @@
-from lexer import tokenize
+from anali_lex import tokenize
 
 
 class RecursiveDescentParser:
