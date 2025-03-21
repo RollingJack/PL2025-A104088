@@ -21,7 +21,7 @@ O objetivo é implementar uma Gramática Independente de Contexto para avaliar e
 ### Gramática
 
 ```bash
-    T = {+, -, *, /, num}
+    T = {'+', '-', '*', '/', num}
     S = Exp
     N = {Exp, Term, Fat}
 
