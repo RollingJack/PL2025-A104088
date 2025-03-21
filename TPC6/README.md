@@ -15,7 +15,7 @@ O objetivo é implementar uma Gramática Independente de Contexto para avaliar e
 
 ```
     5 + 3 * 2
-    2 * 7 - 5 * 2
+    2 * 7 - 5 * 3
 ```
 
 ### Gramática
@@ -65,6 +65,6 @@ O programa foi desenvolvido de forma modular, permitindo fácil manutenção e a
 ```
 Digite a expressão matemática: 5 + 3 * 2
 5 + 3 * 2 = 11
-Digite a expressão matemática: 2 * 7 - 5 * 2
-2 * 7 - 5 * 2 = 4
+Digite a expressão matemática: 2 * 7 - 5 * 3
+2 * 7 - 5 * 3 = -1
 ```
